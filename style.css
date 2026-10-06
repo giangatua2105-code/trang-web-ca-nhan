@@ -1,0 +1,121 @@
+/* ===== ĐỊNH DẠNG CHUNG ===== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== TIÊU ĐỀ ===== */
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+/* ===== ẢNH ĐẠI DIỆN ===== */
+.profile {
+  padding: 30px 20px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #4caf50;
+  margin: 20px;
+  object-fit: cover;
+}
+
+.profile p {
+  font-size: 17px;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+/* ===== SỞ THÍCH ===== */
+.hobbies {
+  padding: 20px;
+}
+
+.hobbies h2 {
+  color: #4caf50;
+}
+
+ul {
+  list-style-type: square;
+  text-align: left;
+  display: inline-block;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul li {
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+/* ===== MỤC TIÊU ===== */
+.goals {
+  padding: 20px;
+  background-color: #eef7ee;
+  margin: 20px auto;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.goals h2 {
+  color: #4caf50;
+}
+
+.goals p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* ===== BẢNG LIÊN HỆ ===== */
+footer {
+  margin-top: 30px;
+  padding: 30px 20px;
+  background-color: #ddd;
+}
+
+footer h2 {
+  color: #333;
+}
+
+table {
+  margin: 15px auto;
+  border-collapse: collapse;
+  width: 50%;
+  max-width: 500px;
+  background-color: #fff;
+}
+
+th,
+td {
+  border: 1px solid #333;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+td a {
+  color: #0066ff;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
